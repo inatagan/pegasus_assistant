@@ -1,3 +1,16 @@
+
+https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white
+
+https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
+
+https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white
+
+https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white
+
+https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white
+
+https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white
+
 # 🤖 Pegasus Assistant - Agente de IA Corporativo (RAG)
 
 O **Pegasus Assistant** é uma solução de Inteligência Artificial para responder perguntas de colaboradores com base exclusiva em documentos internos da empresa (como políticas, manuais e procedimentos em PDF). 
@@ -8,6 +21,8 @@ A aplicação utiliza a arquitetura **RAG (Retrieval-Augmented Generation)**, co
 
 ## 🛠️ Tecnologias Utilizadas
 
+* **Sistema Operacional** meu OS de escolha é Debian, utilizo a mais de 10 anos
+* **Editor NeoVim** meu editor de escolha é o NeoVim
 * **Linguagem:** Python 3.11+
 * **Framework de IA:** LangChain (LCEL)
 * **Modelo de Linguagem (LLM):** Google Gemini (`gemini-3.6-flash`)

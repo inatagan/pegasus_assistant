@@ -1,0 +1,20 @@
+services:
+  pegasus-assistant-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pegasus_assistant_api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Mapeia as pastas locais para manter a persistência do ChromaDB e dos documentos
+      - ./data:/app/data
+      - ./documentos:/app/documentos
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

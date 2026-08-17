@@ -12,7 +12,7 @@ from langchain_chroma import Chroma
 from langchain_community.embeddings import FastEmbedEmbeddings
 
 # Definição dos caminhos das pastas de entrada e saída
-DOCS_DIR = BASE_DIR / "docs"
+DOCS_DIR = BASE_DIR / "documentos"
 CHROMA_DIR = BASE_DIR / "data" / "chroma_db"
 
 def run_ingestion():

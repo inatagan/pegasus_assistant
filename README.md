@@ -12,7 +12,7 @@ Directory structure
 │   ├── ingestion/       # Scripts de limpeza de texto e embeddings
 │   └── scripts/         # Ferramentas CLI (ex: argparse) para atualizar os dados
 ├── data/                # (Opcional) Armazenamento do ChromaDB local
-├── docs/                # Fonte de arquivos usados pelo agente, pdf e outros
+├── documentos/                # Fonte de arquivos usados pelo agente, pdf e outros
 ├── Dockerfile           # Instruções para construir a imagem do agente
 ├── docker-compose.yml   # Orquestração da API e do Vector DB
 └── requirements.txt

@@ -186,3 +186,12 @@ curl -X 'POST' \
 }
 
 ```
+
+## Demo do deploy da applicacao
+
+![001](./extra/img/001.png)
+
+![002](./extra/img/002.png)
+
+![003](./extra/img/003.png)
+
